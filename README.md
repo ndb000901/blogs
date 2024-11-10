@@ -29,12 +29,40 @@
 -------------------------
 # 三、操作系统
 
+## Linux
+
+
+- [Linux相关资料](./linux/Linux相关资料.md)
+- [信号](./linux/信号.md)
+- [进程](./linux/进程.md)
+- [进程控制](./linux/进程控制.md)
+- [僵尸进程](./linux/僵尸进程.md)
+- [孤儿进程](./linux/孤儿进程.md)
+- [进程间通信1-管道](./linux/进程间通信1-管道.md)
+- [进程间通信2-共享内存](./linux/进程间通信2-共享内存.md)
+- [进程间通信3-套接字](./linux/进程间通信3-套接字.md)
+- [进程间通信4-Unix域套接字](./linux/进程间通信4-Unix域套接字.md)
+- [进程间通信5-信号量](./linux/进程间通信5-信号量.md)
+- [进程间通信6-消息队列](./linux/进程间通信6-消息队列.md)
+- [线程](./linux/线程.md)
+- [线程控制](./linux/线程控制.md)
+- [静态库](./linux/静态库.md)
+- [动态链接库](./linux/动态链接库.md)
+- [虚拟内存](./linux/虚拟内存.md)
+- [文件描述符](./linux/文件描述符.md)
+- [IO多路复用1-selec](./linux/IO多路复用1-select.md)
+- [IO多路复用2-poll](./linux/IO多路复用2-poll.md)
+- [IO多路复用3-epoll](./linux/IO多路复用3-epoll.md)
+
 -------------------------
 # 四、数据结构与算法
 
 ## 位运算
 
 - [位运算](./DataStructures&Algorithms/位运算.md)
+- [排序](./DataStructures&Algorithms/排序.md)
+- [数学](./DataStructures&Algorithms/数学.md)
+- [查询算法](./DataStructures&Algorithms/查询算法.md)
 -------------------------
 
 # 五、数据库
