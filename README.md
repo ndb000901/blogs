@@ -54,6 +54,31 @@
 - [IO多路复用2-poll](./linux/IO多路复用2-poll.md)
 - [IO多路复用3-epoll](./linux/IO多路复用3-epoll.md)
 
+### 常用命令
+
+- [命令1-ping](./linux/command/命令1-ping.md)
+- [命令2-top](./linux/command/命令2-top.md)
+- [命令3-cp](./linux/command/命令3-cp.md)
+- [命令4-mkdir](./linux/command/命令4-mkdir.md)
+- [命令5-cd](./linux/command/命令5-cd.md)
+- [命令6-ls](./linux/command/命令6-ls.md)
+- [命令7-pwd](./linux/command/命令7-pwd.md)
+- [命令8-chmod](./linux/command/命令8-chmod.md)
+- [命令9-ip](./linux/command/命令9-ip.md)
+- [命令10-grep](./linux/command/命令10-grep.md)
+- [命令11-find](./linux/command/命令11-find.md)
+- [命令12-chown](./linux/command/命令12-chown.md)
+- [命令13-passwd](./linux/command/命令13-passwd.md)
+- [命令14-sudo](./linux/command/命令14-sudo.md)
+- [命令15-witch](./linux/command/命令15-witch.md)
+- [命令16-date](./linux/command/命令16-date.md)
+- [命令17-man](./linux/command/命令17-man.md)
+- [命令18-gcc](./linux/command/命令18-gcc.md)
+- [命令19-gdb](./linux/command/命令19-gdb.md)
+- [命令20-g++](./linux/command/命令20-g++.md)
+- [命令21-make](./linux/command/命令21-make.md)
+- [命令22-cmake](./linux/command/命令22-cmake.md)
+
 -------------------------
 # 四、数据结构与算法
 
