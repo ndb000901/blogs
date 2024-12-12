@@ -53,6 +53,25 @@
 - [IO多路复用1-selec](./linux/IO多路复用1-select.md)
 - [IO多路复用2-poll](./linux/IO多路复用2-poll.md)
 - [IO多路复用3-epoll](./linux/IO多路复用3-epoll.md)
+- [ELF格式](./linux/ELF格式.md)
+- [readelf命令](./linux/readelf命令.md)
+- [Socket编程](./linux/Socket编程.md)
+- [内存分配器](./linux/内存分配器.md)
+- [内核态与用户态](./linux/内核态与用户态.md)
+- [可执行程序结构](./linux/可执行程序结构.md)
+- [字节序](./linux/字节序.md)
+- [存储映射IO](./linux/存储映射IO.md)
+- [守护进程](./linux/守护进程.md)
+- [异步IO](./linux/异步IO.md)
+- [文件IO](./linux/文件IO.md)
+- [文件与目录](./linux/文件与目录.md)
+- [日志服务-journald](./linux/日志服务-journald.md)
+- [日志服务-rsyslog](./linux/日志服务-rsyslog.md)
+- [日志服务-syslog](./linux/日志服务-syslog.md)
+- [标准IO库](./linux/标准IO库.md)
+- [系统调用](./linux/系统调用.md)
+- [虚拟内存](./linux/虚拟内存.md)
+- []
 
 ### 常用命令
 
