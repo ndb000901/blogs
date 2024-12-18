@@ -2,22 +2,54 @@
 
 ## 1.C
 
+- [C语言基础](./C/C语言基础.md)
+- [C标准库1-assert](./C/C标准库1-assert.md)
+- [C标准库2-stdio](./C/C标准库2-stdio.md)
+- [C标准库3-stdlib](./C/C标准库3-stdlib.md)
+- [C标准库4-string](./C/C标准库4-string.md)
+- [C标准库5-time](./C/C标准库5-time.md)
+- [C标准库6-errno](./C/C标准库6-errno.md)
+- [C标准库7-ctype](./C/C标准库7-ctype.md)
+- [C标准库8-float](./C/C标准库8-float.md)
+- [C标准库9-limits](./C/C标准库9-limits.md)
+- [C标准库10-locale](./C/C标准库10-locale.md)
+- [C标准库11-math](./C/C标准库11-math.md)
+- [C标准库12-signal](./C/C标准库12-signal.md)
+- [C标准库13-stdarg](./C/C标准库13-stdarg.md)
+- [C标准库14-stddef](./C/C标准库14-stddef.md)
+- [C标准库15-setjmp](./C/C标准库15-setjmp.md)
+
 ## 2.C++
+
+- [C++基础]()
 
 ## 3.Python
 
+- [Python基础]()
+
 ## 4.Java
+
+- [Java基础]()
 
 ## 5.TypeScript
 
+- [TypeScript基础]()
+
 ## 6.Golang
+
+- [Golang基础]()
 
 ## 7.Rust
 
+- [Rust基础]()
+
 ## 8.Lua
+
+- [Lua基础]()
 
 ## 9.Shell
 
+- [Shell基础]()
 
 
 
@@ -71,7 +103,10 @@
 - [标准IO库](./linux/标准IO库.md)
 - [系统调用](./linux/系统调用.md)
 - [虚拟内存](./linux/虚拟内存.md)
-- []
+- [group文件](./linux/group文件.md)
+- [passwd文件](./linux/passwd文件.md)
+- [shadow文件](./linux/shadow文件.md)
+- [附属组id](./linux/附属组id.md)
 
 ### 常用命令
 
@@ -199,20 +234,37 @@
 
 # 十、环境配置与安装教程
 
-## nodejs开发
-## java开发
-## python开发
-## golang开发
-## rust开发
-## maven
-## docker
-## kubernetes
-## Mysql
-## Redis
-## Gitlab
-## phpmyadmin
-## prometheus
-## grafana
+- [ActiveMQ安装教程](./softwareInstallation/ActiveMQ安装教程.md)
+- [docker-compose安装教程](./softwareInstallation/docker-compose安装教程.md)
+- [docker安装教程](./softwareInstallation/docker安装教程.md)
+- [Doris安装教程](./softwareInstallation/Doris安装教程.md)
+- [elasticsearch安装教程](./softwareInstallation/elasticsearch安装教程.md)
+- [Gitlab安装教程](./softwareInstallation/Gitlab安装教程.md)
+- [Golang安装教程](./softwareInstallation/Golang安装教程.md)
+- [grafana安装教程](./softwareInstallation/grafana安装教程.md)
+- [iredmail安装教程](./softwareInstallation/iredmail安装教程.md)
+- [JDK安装教程](./softwareInstallation/JDK安装教程.md)
+- [Jenkins安装教程](./softwareInstallation/Jenkins安装教程.md)
+- [Kafka安装教程](./softwareInstallation/Kafka安装教程.md)
+- [Kibana安装教程](./softwareInstallation/Kibana安装教程.md)
+- [kubernetes安装教程](./softwareInstallation/kubernetes安装教程.md)
+- [Logstash安装教程](./softwareInstallation/Logstash安装教程.md)
+- [Maven安装教程](./softwareInstallation/Maven安装教程.md)
+- [Memcached安装教程](./softwareInstallation/Memcached安装教程.md)
+- [MongoDB安装教程](./softwareInstallation/MongoDB安装教程.md)
+- [Mysql安装教程](./softwareInstallation/Mysql安装教程.md)
+- [nginx安装教程](./softwareInstallation/nginx安装教程.md)
+- [nodejs安装教程](./softwareInstallation/nodejs安装教程.md)
+- [phpmyadmin安装教程](./softwareInstallation/phpmyadmin安装教程.md)
+- [PHP安装教程](./softwareInstallation/PHP安装教程.md)
+- [prometheus安装教程](./softwareInstallation/prometheus安装教程.md)
+- [Rabbitmq安装教程](./softwareInstallation/Rabbitmq安装教程.md)
+- [Redis安装教程](./softwareInstallation/Redis安装教程.md)
+- [RocketMQ安装教程](./softwareInstallation/RocketMQ安装教程.md)
+- [Rust安装教程](./softwareInstallation/Rust安装教程.md)
+- [tomcat安装教程](./softwareInstallation/tomcat安装教程.md)
+- [zookeeper安装教程](./softwareInstallation/zookeeper安装教程.md)
+
 
 # 十一、密码学
 
