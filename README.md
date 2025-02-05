@@ -107,6 +107,8 @@
 - [passwd文件](./linux/passwd文件.md)
 - [shadow文件](./linux/shadow文件.md)
 - [附属组id](./linux/附属组id.md)
+- [CPU指令集](./linux/CPU指令集.md)
+- [常用寄存器](./linux/常用寄存器.md)
 
 ### 常用命令
 
