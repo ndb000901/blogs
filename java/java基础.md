@@ -63,3 +63,7 @@
 ## 16.包
 
 [包](./java基础-包.md)
+
+## 17.Function包
+
+[Function包](./java基础-Function包.md)
