@@ -122,7 +122,7 @@
 ## 4.Java
 
 <details open>
-    <summary>目录</summary>
+    <summary>java基础目录</summary>
 
 - [Java基础](./java/java基础.md)
 - [java基础-基本类型](./java/java基础-基本类型.md)
@@ -141,9 +141,14 @@
 - [java基础-lambda表达式](./java/java基础-lambda表达式.md)
 - [java基础-注释](./java/java基础-注释.md)
 - [java基础-包](./java/java基础-包.md)
+- [java基础-国际化](./java/java基础-国际化.md)
 - [java基础-Function包](./java/java基础-Function包.md)
 - [java-编译java文件](./java/编译java文件.md)
+- [Java动态代理](./java/Java动态代理.md)
+- [Java动态代理-cglib](./java/Java动态代理-cglib.md)
 </details>
+
+
 
 
 
@@ -523,10 +528,10 @@
 
 ## 消息中间件
 
-- ### RabbitMQ
-- ### Kafka
-- ### ActiveMQ
-- ### RocketMQ
+- RabbitMQ
+- Kafka
+- ActiveMQ
+- RocketMQ
 
 ## 缓存中间件
 
@@ -561,9 +566,9 @@
 ### Memcached
 
 ## 数据库中间件
-- ### MyCAT
-- ### ShardingSphere
-- ### Vitess
+- MyCAT
+- ShardingSphere
+- Vitess
 
 ## 事务中间件
 - ### Seata
@@ -601,14 +606,38 @@
 # 七、开发框架
 
 ## nodejs
-- ### NestJS
-- ### Express
+### NestJS
+
+### Express
 
 ## Java平台
-- ### Spring
-- ### Spring MVC
-- ### Spring Boot
-- ### Spring Cloud
+
+### Spring
+
+<details open>
+<summary>目录</summary>
+
+- [Spring-xml配置常用命名空间](./spring/SpringFramework/Spring-xml配置常用命名空间.md)
+- [Spring-配置Log4j](spring/SpringFramework/Spring-配置Log4j.md)
+- [Spring-xml配置Bean](./spring/SpringFramework/Spring-xml配置Bean.md)
+- [Spring-xml配置常用命名空间](./spring/SpringFramework/Spring-xml配置常用命名空间.md)
+- [Spring-Bean作用域](./spring/SpringFramework/Spring-Bean作用域.md)
+- [Spring-Bean生命周期](./spring/SpringFramework/Spring-Bean生命周期.md)
+- [Spring-注解配置Bean](./spring/SpringFramework/Spring-注解配置Bean.md)
+- [Spring-AOP基于xml](./spring/SpringFramework/Spring-AOP基于xml.md)
+- [Spring-AOP基于注解](./spring/SpringFramework/Spring-AOP基于注解.md)
+- [Spring-FactoryBean使用](./spring/SpringFramework/Spring-FactoryBean使用.md)
+- [Spring-Resource使用](./spring/SpringFramework/Spring-Resource使用.md)
+- [Spring-i18n国际化](./spring/SpringFramework/Spring-i18n国际化.md)
+- [Spring-整合junit](./spring/SpringFramework/Spring-整合junit.md)
+- [Spring-数据校验Validation](./spring/SpringFramework/Spring-数据校验Validation.md)
+- [Spring-事务](./spring/SpringFramework/Spring-事务.md)
+- [Spring-事务基于xml](./spring/SpringFramework/Spring-事务基于xml.md)
+</details>
+
+### Spring MVC
+### Spring Boot
+### Spring Cloud
 
 
 # 八、ORM框架
@@ -618,11 +647,11 @@
 
 ## Java
 
-- ### Hibernate
-- ### JPA(Java Persistence API)
-- ### MyBatis
-- ### EclipseLink
-- ### Spring Data JPA
+### Hibernate
+### JPA(Java Persistence API)
+### MyBatis
+### EclipseLink
+### Spring Data JPA
 
 # 九、系统运维
 
