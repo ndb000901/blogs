@@ -1,0 +1,33 @@
+name: xxxx # 项目名称
+services:
+  app:
+    container_name: xxx # 容器名称
+    image: xxxxxxx # 镜像
+    build: . # 本地构建
+    restart: unless-stopped # 重启
+    ports: # 端口
+      - "8080:8080"
+      - "8081:8081/udp"
+    volumes: # 挂载目录
+      - .:/usr/src/app:rw
+      - /host:/aaa/xxx:ro
+    working_dir: /data # 工作目录
+    environment: # 环境变量
+      - key=value
+    command: # 启动命令
+      - "node"
+      - "app.js"
+    networks:
+      svc.hello.com:
+        ipv4_address: 172.16.238.10
+        ipv6_address: 2001:3984:3989::10
+    deploy:
+      resources: # 资源
+        limits:
+          cpus: '0.50'
+          memory: 50M
+networks:
+  svc.hello.com:
+    driver: bridge
+    external:
+      name: svc.hello.com

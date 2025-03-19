@@ -146,9 +146,29 @@
 - [java-编译java文件](./java/编译java文件.md)
 - [Java动态代理](./java/Java动态代理.md)
 - [Java动态代理-cglib](./java/Java动态代理-cglib.md)
+
+</details>
+
+<details open>
+
+<summary>servlet目录</summary>
+
+- [servlet基础示例](./java/servlet/servlet基础示例.md)
+- [servlet生命周期](./java/servlet/servlet生命周期.md)
 </details>
 
 
+<details open>
+<summary>lombok目录</summary>
+
+- [lombok基础](./java/lombok/lombok基础.md)
+</details>
+
+<details open>
+<summary>log4j目录</summary>
+
+- [log4j配置](./java/log4j/log4j配置.md)
+</details>
 
 
 
@@ -530,7 +550,6 @@
 
 - RabbitMQ
 - Kafka
-- ActiveMQ
 - RocketMQ
 
 ## 缓存中间件
@@ -765,3 +784,30 @@
 - [反序列化漏洞](./webSecurity/反序列化漏洞.md)
 - [拒绝服务攻击](./webSecurity/拒绝服务攻击.md)
 - [文件上传漏洞](./webSecurity/文件上传漏洞.md)
+
+# 十四、分布式系统
+
+## 分布式锁
+
+<details open>
+<summary>分布式锁相关</summary>
+
+
+</details>
+
+
+## 常用中间件
+
+<details open>
+<summary>zookeeper相关</summary>
+
+- [zookeeper安装教程](./zookeeper/zookeeper安装教程.md)
+- [zookeeper-集群部署](./zookeeper/zookeeper-集群部署.md)
+- [zookeeper配置项详解](./zookeeper/zookeeper配置项详解.md)
+- [zookeeper-节点角色](./zookeeper/zookeeper-节点角色.md)
+- [zookeeper-ZNode详解](./zookeeper/zookeeper-ZNode详解.md)
+- [zookeeper-数据文件格式化](./zookeeper/zookeeper-数据文件格式化.md)
+- [zookeeper-ACL](./zookeeper/zookeeper-ACL.md)
+- [zookeeper-选举数据](./zookeeper/zookeeper-选举数据.md)
+</details>
+
