@@ -67,3 +67,7 @@
 ## 17.Function包
 
 [Function包](./java基础-Function包.md)
+
+## 18.国际化
+
+[国际化](./java基础-国际化.md)

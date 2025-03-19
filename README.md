@@ -122,7 +122,7 @@
 ## 4.Java
 
 <details open>
-    <summary>目录</summary>
+    <summary>java基础目录</summary>
 
 - [Java基础](./java/java基础.md)
 - [java基础-基本类型](./java/java基础-基本类型.md)
@@ -141,8 +141,33 @@
 - [java基础-lambda表达式](./java/java基础-lambda表达式.md)
 - [java基础-注释](./java/java基础-注释.md)
 - [java基础-包](./java/java基础-包.md)
+- [java基础-国际化](./java/java基础-国际化.md)
 - [java基础-Function包](./java/java基础-Function包.md)
 - [java-编译java文件](./java/编译java文件.md)
+- [Java动态代理](./java/Java动态代理.md)
+- [Java动态代理-cglib](./java/Java动态代理-cglib.md)
+
+</details>
+
+<details open>
+
+<summary>servlet目录</summary>
+
+- [servlet基础示例](./java/servlet/servlet基础示例.md)
+- [servlet生命周期](./java/servlet/servlet生命周期.md)
+</details>
+
+
+<details open>
+<summary>lombok目录</summary>
+
+- [lombok基础](./java/lombok/lombok基础.md)
+</details>
+
+<details open>
+<summary>log4j目录</summary>
+
+- [log4j配置](./java/log4j/log4j配置.md)
 </details>
 
 
@@ -523,10 +548,9 @@
 
 ## 消息中间件
 
-- ### RabbitMQ
-- ### Kafka
-- ### ActiveMQ
-- ### RocketMQ
+- RabbitMQ
+- Kafka
+- RocketMQ
 
 ## 缓存中间件
 
@@ -561,9 +585,9 @@
 ### Memcached
 
 ## 数据库中间件
-- ### MyCAT
-- ### ShardingSphere
-- ### Vitess
+- MyCAT
+- ShardingSphere
+- Vitess
 
 ## 事务中间件
 - ### Seata
@@ -601,14 +625,38 @@
 # 七、开发框架
 
 ## nodejs
-- ### NestJS
-- ### Express
+### NestJS
+
+### Express
 
 ## Java平台
-- ### Spring
-- ### Spring MVC
-- ### Spring Boot
-- ### Spring Cloud
+
+### Spring
+
+<details open>
+<summary>目录</summary>
+
+- [Spring-xml配置常用命名空间](./spring/SpringFramework/Spring-xml配置常用命名空间.md)
+- [Spring-配置Log4j](spring/SpringFramework/Spring-配置Log4j.md)
+- [Spring-xml配置Bean](./spring/SpringFramework/Spring-xml配置Bean.md)
+- [Spring-xml配置常用命名空间](./spring/SpringFramework/Spring-xml配置常用命名空间.md)
+- [Spring-Bean作用域](./spring/SpringFramework/Spring-Bean作用域.md)
+- [Spring-Bean生命周期](./spring/SpringFramework/Spring-Bean生命周期.md)
+- [Spring-注解配置Bean](./spring/SpringFramework/Spring-注解配置Bean.md)
+- [Spring-AOP基于xml](./spring/SpringFramework/Spring-AOP基于xml.md)
+- [Spring-AOP基于注解](./spring/SpringFramework/Spring-AOP基于注解.md)
+- [Spring-FactoryBean使用](./spring/SpringFramework/Spring-FactoryBean使用.md)
+- [Spring-Resource使用](./spring/SpringFramework/Spring-Resource使用.md)
+- [Spring-i18n国际化](./spring/SpringFramework/Spring-i18n国际化.md)
+- [Spring-整合junit](./spring/SpringFramework/Spring-整合junit.md)
+- [Spring-数据校验Validation](./spring/SpringFramework/Spring-数据校验Validation.md)
+- [Spring-事务](./spring/SpringFramework/Spring-事务.md)
+- [Spring-事务基于xml](./spring/SpringFramework/Spring-事务基于xml.md)
+</details>
+
+### Spring MVC
+### Spring Boot
+### Spring Cloud
 
 
 # 八、ORM框架
@@ -618,11 +666,11 @@
 
 ## Java
 
-- ### Hibernate
-- ### JPA(Java Persistence API)
-- ### MyBatis
-- ### EclipseLink
-- ### Spring Data JPA
+### Hibernate
+### JPA(Java Persistence API)
+### MyBatis
+### EclipseLink
+### Spring Data JPA
 
 # 九、系统运维
 
@@ -736,3 +784,30 @@
 - [反序列化漏洞](./webSecurity/反序列化漏洞.md)
 - [拒绝服务攻击](./webSecurity/拒绝服务攻击.md)
 - [文件上传漏洞](./webSecurity/文件上传漏洞.md)
+
+# 十四、分布式系统
+
+## 分布式锁
+
+<details open>
+<summary>分布式锁相关</summary>
+
+
+</details>
+
+
+## 常用中间件
+
+<details open>
+<summary>zookeeper相关</summary>
+
+- [zookeeper安装教程](./zookeeper/zookeeper安装教程.md)
+- [zookeeper-集群部署](./zookeeper/zookeeper-集群部署.md)
+- [zookeeper配置项详解](./zookeeper/zookeeper配置项详解.md)
+- [zookeeper-节点角色](./zookeeper/zookeeper-节点角色.md)
+- [zookeeper-ZNode详解](./zookeeper/zookeeper-ZNode详解.md)
+- [zookeeper-数据文件格式化](./zookeeper/zookeeper-数据文件格式化.md)
+- [zookeeper-ACL](./zookeeper/zookeeper-ACL.md)
+- [zookeeper-选举数据](./zookeeper/zookeeper-选举数据.md)
+</details>
+
