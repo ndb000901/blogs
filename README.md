@@ -171,6 +171,15 @@
 </details>
 
 
+<details open>
+<summary>rabbitmq目录</summary>
+
+- [rabbitmq基础使用](./java/rabbitmq/rabbitmq基础使用.md)
+- [rabbitmq发布确认](./java/rabbitmq/rabbitmq发布确认.md)
+- [rabbitmq消费确认](./java/rabbitmq/rabbitmq消费确认.md)
+
+</details>
+
 
 
 
@@ -401,6 +410,7 @@
 - [命令20-g++](./linux/command/命令20-g++.md)
 - [命令21-make](./linux/command/命令21-make.md)
 - [命令22-cmake](./linux/command/命令22-cmake.md)
+- [命令23-dpkg](./linux/command/命令23-dpkg.md)
 
 </details>
 
@@ -548,9 +558,24 @@
 
 ## 消息中间件
 
-- RabbitMQ
-- Kafka
-- RocketMQ
+### RabbitMQ
+
+<details open>
+    <summary>rabbitmq目录</summary>
+
+- [rabbitmq安装教程](./rabbitmq/rabbitmq安装教程.md)
+- [rabbitmq基本使用](./rabbitmq/rabbitmq基本使用.md)
+- [rabbitmq常用配置项](./rabbitmq/rabbitmq常用配置项.md)
+- [rabbitmq-Docker部署](./rabbitmq/rabbitmq-Docker部署.md)
+- [rabbitmq-交换机](./rabbitmq/rabbitmq-交换机.md)
+- [rabbitmq发布确认](./rabbitmq/rabbitmq发布确认.md)
+- [rabbitmq消费确认](./rabbitmq/rabbitmq消费确认.md)
+
+</details>
+
+### Kafka
+
+### RocketMQ
 
 ## 缓存中间件
 
@@ -634,7 +659,7 @@
 ### Spring
 
 <details open>
-<summary>目录</summary>
+<summary>spring目录</summary>
 
 - [Spring-xml配置常用命名空间](./spring/SpringFramework/Spring-xml配置常用命名空间.md)
 - [Spring-配置Log4j](spring/SpringFramework/Spring-配置Log4j.md)
@@ -652,6 +677,12 @@
 - [Spring-数据校验Validation](./spring/SpringFramework/Spring-数据校验Validation.md)
 - [Spring-事务](./spring/SpringFramework/Spring-事务.md)
 - [Spring-事务基于xml](./spring/SpringFramework/Spring-事务基于xml.md)
+</details>
+
+<details open>
+<summary>Spring AMQP</summary>
+
+
 </details>
 
 ### Spring MVC
@@ -787,6 +818,14 @@
 
 # 十四、分布式系统
 
+## 系统指标
+
+<details open>
+<summary>系统指标</summary>
+    
+- [系统评估常用指标](./systemDesign/系统评估常用指标.md)
+</details>
+
 ## 分布式锁
 
 <details open>
@@ -811,3 +850,18 @@
 - [zookeeper-选举数据](./zookeeper/zookeeper-选举数据.md)
 </details>
 
+
+# 十五、工具
+
+## git
+
+<details open>
+<summary>git目录</summary>
+
+- [git基础](./git/git基础.md)
+- [git基础-基础使用](./git/git基础-基础使用.md)
+- [git基础-配置](./git/git基础-配置.md)
+- [git问题汇总](./git/git问题汇总.md)
+
+
+</details>

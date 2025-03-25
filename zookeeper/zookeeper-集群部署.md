@@ -62,8 +62,11 @@ services:
     restart: unless-stopped # 重启
     environment:
       - ZOO_MY_ID=1
+      - JVMFLAGS=-Xmx10240m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=1099 -Dcom.sun.management.jmxremote.rmi.port=11098 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=192.168.43.242
     ports: # 端口
       - "12181:2181"
+      - "11099:1099"
+      - "11098:11098"
       - "28081:8080"
     volumes: # 挂载目录
       - ./zoo.cfg:/conf/zoo.cfg:ro
@@ -79,9 +82,12 @@ services:
     restart: unless-stopped # 重启
     environment:
       - ZOO_MY_ID=2
+      - JVMFLAGS=-Xmx10240m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=1099 -Dcom.sun.management.jmxremote.rmi.port=11198 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=192.168.43.242
     ports: # 端口
       - "12182:2181"
       - "28082:8080"
+      - "11199:1099"
+      - "11198:11198"
     volumes: # 挂载目录
       - ./zoo.cfg:/conf/zoo.cfg:ro
       - ./data2/data:/data:rw
@@ -94,9 +100,12 @@ services:
     restart: unless-stopped # 重启
     environment:
       - ZOO_MY_ID=3
+      - JVMFLAGS=-Xmx10240m -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=1099 -Dcom.sun.management.jmxremote.rmi.port=11298 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=192.168.43.242
     ports: # 端口
       - "12183:2181"
       - "28083:8080"
+      - "11299:1099"
+      - "11298:11298"
     volumes: # 挂载目录
       - ./zoo.cfg:/conf/zoo.cfg:ro
       - ./data3/data:/data:rw
