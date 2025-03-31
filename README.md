@@ -171,6 +171,15 @@
 </details>
 
 
+<details open>
+<summary>rabbitmq目录</summary>
+
+- [rabbitmq基础使用](./java/rabbitmq/rabbitmq基础使用.md)
+- [rabbitmq发布确认](./java/rabbitmq/rabbitmq发布确认.md)
+- [rabbitmq消费确认](./java/rabbitmq/rabbitmq消费确认.md)
+
+</details>
+
 
 
 
@@ -401,6 +410,7 @@
 - [命令20-g++](./linux/command/命令20-g++.md)
 - [命令21-make](./linux/command/命令21-make.md)
 - [命令22-cmake](./linux/command/命令22-cmake.md)
+- [命令23-dpkg](./linux/command/命令23-dpkg.md)
 
 </details>
 
@@ -548,9 +558,24 @@
 
 ## 消息中间件
 
-- RabbitMQ
-- Kafka
-- RocketMQ
+### RabbitMQ
+
+<details open>
+    <summary>rabbitmq目录</summary>
+
+- [rabbitmq安装教程](./rabbitmq/rabbitmq安装教程.md)
+- [rabbitmq基本使用](./rabbitmq/rabbitmq基本使用.md)
+- [rabbitmq常用配置项](./rabbitmq/rabbitmq常用配置项.md)
+- [rabbitmq-Docker部署](./rabbitmq/rabbitmq-Docker部署.md)
+- [rabbitmq-交换机](./rabbitmq/rabbitmq-交换机.md)
+- [rabbitmq发布确认](./rabbitmq/rabbitmq发布确认.md)
+- [rabbitmq消费确认](./rabbitmq/rabbitmq消费确认.md)
+
+</details>
+
+### Kafka
+
+### RocketMQ
 
 ## 缓存中间件
 
@@ -634,7 +659,7 @@
 ### Spring
 
 <details open>
-<summary>目录</summary>
+<summary>spring目录</summary>
 
 - [Spring-xml配置常用命名空间](./spring/SpringFramework/Spring-xml配置常用命名空间.md)
 - [Spring-配置Log4j](spring/SpringFramework/Spring-配置Log4j.md)
@@ -652,6 +677,12 @@
 - [Spring-数据校验Validation](./spring/SpringFramework/Spring-数据校验Validation.md)
 - [Spring-事务](./spring/SpringFramework/Spring-事务.md)
 - [Spring-事务基于xml](./spring/SpringFramework/Spring-事务基于xml.md)
+</details>
+
+<details open>
+<summary>Spring AMQP</summary>
+
+
 </details>
 
 ### Spring MVC
@@ -752,8 +783,9 @@
 # 十二、密码学
 
 <details open>
-    <summary>目录</summary>
+    <summary>密码学基础</summary>
 
+- [密码学基础](./cryptograohy/密码学基础.md)
 - [对称加密](./cryptography/对称加密.md)
 - [非对称加密](./cryptography/非对称加密.md)
 - [哈希函数](./cryptography/哈希函数.md)
@@ -761,6 +793,48 @@
 - [消息认证码](./cryptography/消息认证码.md)
 - [密钥交换协议](./cryptography/密钥交换协议.md)
 - [证书和公钥基础设施](./cryptography/证书和公钥基础设施.md)
+- [AES加密](./cryptograohy/AES加密.md)
+- [PKCS标准](./cryptograohy/PKCS标准.md)
+- [证书](./cryptograohy/证书.md)
+- [PBKDF](./cryptograohy/PBKDF.md)
+- [RSA算法原理](./cryptograohy/RSA算法原理.md)
+
+</details>
+
+<details open>
+<summary>OpenSSL 使用教程</summary>
+
+- [OpenSSL教程](./openssl/command/OpenSSL教程.md)
+- [Openssl编译](./openssl/Openssl编译.md)
+- [算法查询](./openssl/command/算法查询.md)
+- [算法性能测试](./openssl/command/算法性能测试.md)
+- [密钥生成](./openssl/command/密钥生成.md)
+- [PKCS8操作](./openssl/command/PKCS8操作.md)
+- [openssl配置说明](./openssl/command/openssl配置说明.md)
+- [RSA密钥管理](./openssl/command/RSA密钥管理.md)
+- [生成RSA-CA根证书](./openssl/command/生成RSA-CA根证书.md)
+- [生成RSA-CA中间证书](./openssl/command/生成RSA-CA中间证书.md)
+- [EC密钥管理](./openssl/command/EC密钥管理.md)
+- [生成EC-CA根证书](./openssl/command/生成EC-CA根证书.md)
+- [生成EC-CA中间证书](./openssl/command/生成EC-CA中间证书.md)
+- [签发客户端证书](./openssl/command/签发客户端证书.md)
+- [签发服务端证书](./openssl/command/签发服务端证书.md)
+- [吊销证书](./openssl/command/吊销证书.md)
+
+</details>
+
+<details open>
+<summary>OpenSSL CA教程</summary>
+
+- [RSA密钥管理](./openssl/command/RSA密钥管理.md)
+- [生成RSA-CA根证书](./openssl/command/生成RSA-CA根证书.md)
+- [生成RSA-CA中间证书](./openssl/command/生成RSA-CA中间证书.md)
+- [EC密钥管理](./openssl/command/EC密钥管理.md)
+- [生成EC-CA根证书](./openssl/command/生成EC-CA根证书.md)
+- [生成EC-CA中间证书](./openssl/command/生成EC-CA中间证书.md)
+- [签发客户端证书](./openssl/command/签发客户端证书.md)
+- [签发服务端证书](./openssl/command/签发服务端证书.md)
+- [吊销证书](./openssl/command/吊销证书.md)
 
 </details>
 
@@ -787,6 +861,14 @@
 
 # 十四、分布式系统
 
+## 系统指标
+
+<details open>
+<summary>系统指标</summary>
+    
+- [系统评估常用指标](./systemDesign/系统评估常用指标.md)
+</details>
+
 ## 分布式锁
 
 <details open>
@@ -811,3 +893,18 @@
 - [zookeeper-选举数据](./zookeeper/zookeeper-选举数据.md)
 </details>
 
+
+# 十五、工具
+
+## git
+
+<details open>
+<summary>git目录</summary>
+
+- [git基础](./git/git基础.md)
+- [git基础-基础使用](./git/git基础-基础使用.md)
+- [git基础-配置](./git/git基础-配置.md)
+- [git问题汇总](./git/git问题汇总.md)
+
+
+</details>
