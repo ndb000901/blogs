@@ -32,7 +32,7 @@ echo "01" >> $CA_ROOT_DIR/crlnumber
 
 ```bash
 
-CA_ROOT_KEY_PATH=$CA_ROOT_DIR/key.pem
+export CA_ROOT_KEY_PATH=$CA_ROOT_DIR/key.pem
 
 # 加密
 openssl genrsa -aes56 -out $CA_ROOT_KEY_PATH 4096
@@ -47,7 +47,7 @@ openssl genrsa -out $CA_ROOT_KEY_PATH 4096
 
 ```bash
 
-CA_ROOT_REQ_CONFIG_PATH=$CA_ROOT_DIR/root-req.conf
+export CA_ROOT_REQ_CONFIG_PATH=$CA_ROOT_DIR/root-req.conf
 cat > $CA_ROOT_REQ_CONFIG_PATH << EOL
 # https://docs.openssl.org/3.0/man1/openssl-req/#configuration-file-format
 [ req ]
@@ -126,10 +126,10 @@ EOL
 
 ```bash
 
-CA_ROOT_CERT_PATH=$CA_ROOT_DIR/ca.pem
+export CA_ROOT_CERT_PATH=$CA_ROOT_DIR/ca.pem
 
 # 生成一个有效期为 100 年的自签名 CA 根证书
-openssl req -config $CA_ROOT_REQ_CONFIG_FILE \
+openssl req -config $CA_ROOT_REQ_CONFIG_PATH \
     -new \
     -x509 \
     -extensions v3_ca \
@@ -160,7 +160,7 @@ openssl verify -CAfile $CA_ROOT_CERT_PATH $CA_ROOT_CERT_PATH
 
 ```bash
 
-CA_ROOT_CONF_PATH=$CA_ROOT_DIR/ca.cnf
+export CA_ROOT_CONF_PATH=$CA_ROOT_DIR/ca.cnf
 
 cat > $CA_ROOT_CONF_PATH << EOL
 

@@ -45,7 +45,7 @@ openssl genrsa -out $CA_L2_KEY_PATH 4096
 
 ```bash
 
-CA_L2_REQ_CONFIG_PATH=$CA_L2_DIR/ca.csr.cnf
+export CA_L2_REQ_CONFIG_PATH=$CA_L2_DIR/ca.csr.cnf
 
 cat > $CA_L2_REQ_CONFIG_PATH << EOL
 [ req ]
@@ -69,7 +69,7 @@ EOL
 
 ```bash
 
-CA_L2_CSR_PATH=$CA_L2_DIR/ca.csr.pem
+export CA_L2_CSR_PATH=$CA_L2_DIR/ca.csr.pem
 
 openssl req -config $CA_L2_REQ_CONFIG_PATH -new -key $CA_L2_KEY_PATH -out $CA_L2_CSR_PATH
 ```
@@ -95,7 +95,7 @@ openssl req -in $CA_L2_CSR_PATH -noout -text
 
 ```bash
 
-CA_L2_CERT_PATH=$CA_L2_DIR/ca.pem
+export CA_L2_CERT_PATH=$CA_L2_DIR/ca.pem
 openssl ca \
     -config $CA_ROOT_DIR/ca.cnf \
     -extensions v3_intermediate_ca \
@@ -127,7 +127,7 @@ openssl verify -CAfile $CA_ROOT_CERT_PATH $CA_L2_CERT_PATH
 
 ```bash
 
-CA_L2_CERT_CHAIN_PATH=$CA_L2_DIR/ca.fullchain.pem
+export CA_L2_CERT_CHAIN_PATH=$CA_L2_DIR/ca.fullchain.pem
 
 cat > $CA_L2_CERT_CHAIN_PATH << EOL
 $(cat $CA_L2_CERT_PATH)
@@ -169,9 +169,9 @@ MIIEIDCCAwigAwIB...
 
 ```bash
 
-CA_L2_CONF_PATH=$CA_L2_DIR/ca.cnf
+export CA_L2_CONF_PATH=$CA_L2_DIR/ca.cnf
 
-cat > CA_L2_CONF_PATH << EOL
+cat > $CA_L2_CONF_PATH << EOL
 # OpenSSL intermediate CA configuration file.
 # Copy to /root/ca/intermediate/openssl.cnf.
 
