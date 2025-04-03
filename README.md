@@ -150,6 +150,36 @@
 </details>
 
 <details open>
+<summary>JVM</summary>
+
+- [HotSpot-JVM内存划分](./java/jvm/HotSpot-JVM内存划分.md)
+- [GCRoots](./java/jvm/GCRoots.md)
+- [安全点](./java/jvm/安全点.md)
+- [安全区域](./java/jvm/安全区域.md)
+- [垃圾收集算法-标记清除](./java/jvm/垃圾收集算法-标记清除.md)
+- [垃圾收集算法-标记复制](./java/jvm/垃圾收集算法-标记复制.md)
+- [垃圾收集算法-标记整理](./java/jvm/垃圾收集算法-标记整理.md)
+- [三色标记](./java/jvm/三色标记.md)
+- [垃圾收集器](./java/jvm/垃圾收集器.md)
+
+</details>
+
+<details open>
+<summary>JDK 工具</summary>
+
+- [工具-jconsole](./java/jdkTools/工具-jconsole.md)
+- [工具-jhat](./java/jdkTools/工具-jhat.md)
+- [工具-jhsdb](./java/jdkTools/工具-jhsdb.md)
+- [工具-jinfo](./java/jdkTools/工具-jinfo.md)
+- [工具-jmap](./java/jdkTools/工具-jmap.md)
+- [工具-jps](./java/jdkTools/工具-jps.md)
+- [工具-jstack](./java/jdkTools/工具-jstack.md)
+- [工具-VisualVM](./java/jdkTools/工具-VisualVM.md)
+- [工具-jstat](./java/jdkTools/工具-jstat.md)
+
+</details>
+
+<details open>
 
 <summary>servlet目录</summary>
 

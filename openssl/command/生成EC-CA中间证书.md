@@ -51,7 +51,7 @@ openssl ec -aes256 -in $CA_L2_KEY_PATH -out $CA_L2_KEY_PATH
 
 ```bash
 
-CA_L2_REQ_PATH=$CA_L2_DIR/ca.csr.cnf
+export CA_L2_REQ_PATH=$CA_L2_DIR/ca.csr.cnf
 
 cat > $CA_L2_REQ_PATH << EOL
 [ req ]
@@ -77,7 +77,7 @@ EOL
 需要使用私钥对签名请求进行签名
 ```bash
 
-CA_L2_CSR_PATH=$CA_L2_DIR/ca.csr.pem
+export CA_L2_CSR_PATH=$CA_L2_DIR/ca.csr.pem
 
 openssl req -config $CA_L2_REQ_PATH -new -key $CA_L2_KEY_PATH -out $CA_L2_CSR_PATH
 ```
@@ -94,7 +94,7 @@ openssl req -in $CA_L2_CSR_PATH -noout -text
 
 ```bash
 
-CA_L2_CERT_PATH=$CA_L2_DIR/ca.pem
+export CA_L2_CERT_PATH=$CA_L2_DIR/ca.pem
 
 # 10 年
 openssl ca \
@@ -128,7 +128,7 @@ openssl verify -CAfile $CA_ROOT_CERT_PATH $CA_L2_CERT_PATH
 
 ```bash
 
-CA_L2_CERT_CHAIN_PATH=$CA_L2_DIR/ca.fullchain.pem
+export CA_L2_CERT_CHAIN_PATH=$CA_L2_DIR/ca.fullchain.pem
 
 cat > $CA_L2_CERT_CHAIN_PATH << EOL
 $(cat $CA_L2_CERT_PATH)
@@ -141,7 +141,7 @@ EOL
 
 ```bash
 
-CA_L2_CONF_PATH=$CA_L2_DIR/ca.cnf
+export CA_L2_CONF_PATH=$CA_L2_DIR/ca.cnf
 
 cat > $CA_L2_CONF_PATH << EOL
 [ ca ]
@@ -150,7 +150,7 @@ default_ca = CA_default
 
 [ CA_default ]
 # Directory and file locations.
-dir               = $MY_CA_L2_DIR
+dir               = $CA_L2_DIR
 certs             = \$dir/certs
 crl_dir           = \$dir/crl
 new_certs_dir     = \$dir/issued_certs

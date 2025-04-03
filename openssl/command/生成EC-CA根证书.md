@@ -52,7 +52,7 @@ openssl ec -aes256 -in $CA_ROOT_KEY_PATH -out $CA_ROOT_KEY_PATH
 
 ```bash
 
-CA_ROOT_REQ_CONFIG_PATH=$CA_ROOT_DIR/ca.csr.cnf
+export CA_ROOT_REQ_CONFIG_PATH=$CA_ROOT_DIR/ca.csr.cnf
 
 cat > $CA_ROOT_REQ_CONFIG_PATH << EOL
 [ req ]
@@ -89,7 +89,7 @@ EOL
 
 ```bash
 
-CA_ROOT_CERT_PATH=$CA_ROOT_DIR/ca.pem
+export CA_ROOT_CERT_PATH=$CA_ROOT_DIR/ca.pem
 
 # 生成一个有效期为 100 年的自签名 CA 根证书
 openssl req -config $CA_ROOT_REQ_CONFIG_PATH \
@@ -123,7 +123,7 @@ openssl verify -CAfile $CA_ROOT_CERT_PATH $CA_ROOT_CERT_PATH
 
 ```bash
 
-CA_ROOT_CONF_PATH=$CA_ROOT_DIR/ca.cnf
+export CA_ROOT_CONF_PATH=$CA_ROOT_DIR/ca.cnf
 
 cat > $CA_ROOT_CONF_PATH << EOL
 [ ca ]
