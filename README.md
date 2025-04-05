@@ -311,7 +311,6 @@
 - [Shell基础-参数传递](./shell/Shell基础-参数传递.md)
 - [Shell基础-循环](./shell/Shell基础-循环.md)
 - [Shell基础-流程控制](./shell/Shell基础-流程控制.md)
-- [Shell基础-异常处理](./shell/Shell基础-异常处理.md)
 - [Shell基础-运算符](./shell/Shell基础-运算符.md)
 - [Shell基础-数组](./shell/Shell基础-数组.md)
 - [Shell基础-函数](./shell/Shell基础-函数.md)
@@ -815,7 +814,7 @@
 <details open>
     <summary>密码学基础</summary>
 
-- [密码学基础](./cryptograohy/密码学基础.md)
+- [密码学基础](./cryptography/密码学基础.md)
 - [对称加密](./cryptography/对称加密.md)
 - [非对称加密](./cryptography/非对称加密.md)
 - [哈希函数](./cryptography/哈希函数.md)
@@ -823,11 +822,11 @@
 - [消息认证码](./cryptography/消息认证码.md)
 - [密钥交换协议](./cryptography/密钥交换协议.md)
 - [证书和公钥基础设施](./cryptography/证书和公钥基础设施.md)
-- [AES加密](./cryptograohy/AES加密.md)
-- [PKCS标准](./cryptograohy/PKCS标准.md)
-- [证书](./cryptograohy/证书.md)
-- [PBKDF](./cryptograohy/PBKDF.md)
-- [RSA算法原理](./cryptograohy/RSA算法原理.md)
+- [AES加密](./cryptography/AES加密.md)
+- [PKCS标准](./cryptography/PKCS标准.md)
+- [证书](./cryptography/证书.md)
+- [PBKDF](./cryptography/PBKDF.md)
+- [RSA算法原理](./cryptography/RSA算法原理.md)
 
 </details>
 
