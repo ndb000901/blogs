@@ -287,6 +287,7 @@
   - [Lua基础-循环](./lua/Lua基础-循环.md)
   - [Lua基础-流程控制](./lua/Lua基础-流程控制.md)
   - [Lua基础-运算符](./lua/Lua基础-运算符.md)
+  - [Lua基础-函数](./lua/Lua基础-函数.md)
   - [Lua基础-字符串](./lua/Lua基础-字符串.md)
   - [Lua基础-数组](./lua/Lua基础-数组.md)
   - [Lua基础-迭代器](./lua/Lua基础-迭代器.md)
