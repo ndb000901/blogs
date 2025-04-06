@@ -234,10 +234,11 @@
 - [TypeScript基础-String](./typescript/TypeScript基础-String.md)
 - [TypeScript基础-Array](./typescript/TypeScript基础-Array.md)
 - [TypeScript基础-Map](./typescript/TypeScript基础-Map.md)
+- [TypeScript基础-Map](./typescript/TypeScript基础-Map.md)
 - [TypeScript基础-联合类型](./typescript/TypeScript基础-联合类型.md)
 - [TypeScript基础-Symbol](./typescript/TypeScript基础-Symbol.md)
 - [TypeScript基础-装饰器](./typescript/TypeScript基础-装饰器.md)
-- [TypeScript基础-命名空间](./typescript/TypeScript基础-命名空间.md)
+- [TypeScript基础-命名空间](./typescript/TypeScript基础-命名空间)
 - [TypeScript基础-申明文件](./typescript/TypeScript基础-申明文件.md)
 - [TypeScript基础-模块](./typescript/TypeScript基础-模块.md)
 
