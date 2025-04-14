@@ -964,24 +964,23 @@
 
 # 十三、Web深透测试
 
+<details open>
+<summary>常见Web漏洞</summary>
+
 - [SQL注入](./webSecurity/SQL注入.md)
-- [跨站脚本](./webSecurity/跨站脚本.md)
-- [命令注入](./webSecurity/命令注入.md)
-- [路径遍历](./webSecurity/路径遍历.md)
 - [反射型XSS](./webSecurity/反射型XSS.md)
 - [存储型XSS](./webSecurity/存储型XSS.md)
-- [弱密码](./webSecurity/弱密码.md)
-- [会话固定](./webSecurity/会话固定.md)
-- [跨站请求伪造](./webSecurity/跨站请求伪造.md)
-- [缺失认证或授权](./webSecurity/缺失认证或授权.md)
-- [开放重定向](./webSecurity/开放重定向.md)
-- [栈溢出](./webSecurity/栈溢出.md)
-- [堆溢出](./webSecurity/堆溢出.md)
-- [默认配置漏洞](./webSecurity/默认配置漏洞.md)
-- [权限过高的文件或目录](./webSecurity/权限过高的文件或目录.md)
 - [反序列化漏洞](./webSecurity/反序列化漏洞.md)
+- [命令注入](./webSecurity/命令注入.md)
+- [堆溢出](./webSecurity/堆溢出.md)
+- [栈溢出](./webSecurity/栈溢出.md)
+- [开放重定向](./webSecurity/开放重定向.md)
+- [弱密码](./webSecurity/弱密码.md)
 - [拒绝服务攻击](./webSecurity/拒绝服务攻击.md)
 - [文件上传漏洞](./webSecurity/文件上传漏洞.md)
+- [跨站请求伪造](./webSecurity/跨站请求伪造.md)
+
+</details>
 
 # 十四、分布式系统
 
