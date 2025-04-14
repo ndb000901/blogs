@@ -700,29 +700,32 @@
 ### Redis
 <details open>
 <summary>Redis基础</summary>
-  
-  - [Redis编译安装](./redis/Redis编译安装.md)
-  - [Redis基础使用](./redis/Redis基础使用.md)
-  - [字符串](./redis/Redis基础-字符串.md)
-  - [列表](./redis/Redis基础-列表.md)
-  - [JSON](./redis/Redis基础-JSON.md)
-  - [HyperLogLog](./redis/Redis基础-HyperLogLog.md)
-  - [位图](./redis/Redis基础-位图.md)
-  - [哈希](./redis/Redis基础-哈希.md)
-  - [地理空间](./redis/Redis基础-地理空间.md)
-  - [有序集合](./redis/Redis基础-有序集合.md)
-  - [集合](./redis/Redis基础-集合.md)
-  - [流](./redis/Redis基础-流.md)
-  - [持久化](./redis/Redis基础-持久化.md)
-  - [AOF持久化](./redis/Redis基础-AOF持久化.md)
-  - [RDB持久化](./redis/Redis基础-RDB持久化.md)
-  - [高可用](./redis/Redis基础-高可用.md)
-  - [集群模式](./redis/Redis基础-集群模式.md)
-  - [单机模式](./redis/Redis基础-单机模式.md)
-  - [哨兵模式](./redis/Redis基础-哨兵模式.md)
-  - [发布订阅](./redis/Redis基础-发布订阅.md)
 
-  </details>
+- [Redis基础](./redis/Redis基础.md)
+- [编译安装](./redis/Redis基础-编译安装.md)
+- [配置文件详解](./redis/Redis基础-配置文件详解.md)
+- [Docker单机安装](./redis/Redis基础-Docker单机安装.md)
+- [字符串](./redis/Redis基础-字符串.md)
+- [列表](./redis/Redis基础-列表.md)
+- [集合](./redis/Redis基础-集合.md)
+- [有序集合](./redis/Redis基础-有序集合.md)
+- [哈希](./redis/Redis基础-哈希.md)
+- [地理空间](./redis/Redis基础-地理空间.md)
+- [JSON](./redis/Redis基础-JSON.md)
+- [位图](./redis/Redis基础-位图.md)
+- [流](./redis/Redis基础-流.md)
+- [HyperLogLog](./redis/Redis基础-HyperLogLog.md)
+- [Lua脚本](./redis/Redis基础-Lua脚本.md)
+- [事务](./redis/Redis基础-事务.md)
+- [发布订阅](./redis/Redis基础-发布订阅.md)
+- [RDB持久化](./redis/Redis基础-RDB持久化.md)
+- [AOF持久化](Redis基础-AOF持久化.md)
+- [单机模式](./redis/Redis基础-单机模式.md)
+- [主从复制模式](./redis/Redis基础-主从复制模式.md)
+- [哨兵模式](./redis/Redis基础-哨兵模式.md)
+- [集群模式](./redis/Redis基础-集群模式.md)
+
+</details>
 
 
 ### Memcached
@@ -869,7 +872,7 @@
 # 十一、设计模式
 
 <details open>
-  <summary>目录</summary>
+  <summary>创建型</summary>
 
 - [设计模式](./designPatterns/设计模式.md)
 - [创建型-单例模式](./designPatterns/创建型-单例模式.md)
@@ -877,6 +880,13 @@
 - [创建型-抽象工厂模式](./designPatterns/创建型-抽象工厂模式.md)
 - [创建型-建造者模式](./designPatterns/创建型-建造者模式.md)
 - [创建型-原型模式](./designPatterns/创建型-原型模式.md)
+
+</details>
+
+<details open>
+  <summary>结构型</summary>
+
+- [设计模式](./designPatterns/设计模式.md)
 - [结构型-适配器模式](./designPatterns/结构型-适配器模式.md)
 - [结构型-桥接模式](./designPatterns/结构型-桥接模式.md)
 - [结构型-组合模式](./designPatterns/结构型-组合模式.md)
@@ -884,6 +894,13 @@
 - [结构型-外观模式](./designPatterns/结构型-外观模式.md)
 - [结构型-享元模式](./designPatterns/结构型-享元模式.md)
 - [结构型-代理模式](./designPatterns/结构型-代理模式.md)
+
+</details>
+
+<details open>
+  <summary>行为型</summary>
+
+- [设计模式](./designPatterns/设计模式.md)
 - [行为型-责任链模式](./designPatterns/行为型-责任链模式.md)
 - [行为型-命令模式](./designPatterns/行为型-命令模式.md)
 - [行为型-解释器模式](./designPatterns/行为型-解释器模式.md)
