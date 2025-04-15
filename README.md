@@ -1001,19 +1001,51 @@
 
 # 十四、分布式系统
 
-## 系统指标
-
 <details open>
 <summary>系统指标</summary>
     
 - [系统评估常用指标](./systemDesign/系统评估常用指标.md)
 </details>
 
-## 分布式锁
+
+<details open>
+<summary>分布式系统相关</summary>
+
+- [一致性哈希](./DistributedSystem/一致性哈希.md)
+- [分布式全局唯一ID](./DistributedSystem/分布式全局唯一ID.md)
+- [接口幂等性](./DistributedSystem/接口幂等性.md)
+- [消息幂等性](./DistributedSystem/消息幂等性.md)
+- [本地消息表](./DistributedSystem/本地消息表.md)
+
+</details>
+
 
 <details open>
 <summary>分布式锁相关</summary>
 
+- [分布式锁-基于数据库](./DistributedSystem/lock/分布式锁-基于数据库.md)
+- [分布式锁-基于Zookeeper](./DistributedSystem/lock/分布式锁-基于Zookeeper.md)
+- [分布式锁-基于Redis](./DistributedSystem/lock/分布式锁-基于Redis.md)
+
+</details>
+
+
+<details>
+<summary>缓存相关</summary>
+
+- [缓存击穿](./DistributedSystem/cache/缓存击穿.md)
+- [缓存穿透](./DistributedSystem/cache/缓存穿透.md)
+- [缓存雪崩](./DistributedSystem/cache/缓存雪崩.md)
+- [缓存一致性](./DistributedSystem/cache/缓存一致性.md)
+
+</details>
+
+<details open>
+<summary>分布式事务相关</summary>
+
+- [分布式事务-2PC](./DistributedSystem/transaction/分布式事务-2PC.md)
+- [分布式事务-TCC](./DistributedSystem/transaction/分布式事务-TCC.md)
+- [分布式事务-SAGA](./DistributedSystem/transaction/分布式事务-SAGA.md)
 
 </details>
 
