@@ -841,6 +841,7 @@
 <details open>
 <summary>spring目录</summary>
 
+- [Spring-设计模式](./spring/SpringFramework/Spring-设计模式.md)
 - [Spring-xml配置常用命名空间](./spring/SpringFramework/Spring-xml配置常用命名空间.md)
 - [Spring-配置Log4j](spring/SpringFramework/Spring-配置Log4j.md)
 - [Spring-xml配置Bean](./spring/SpringFramework/Spring-xml配置Bean.md)
