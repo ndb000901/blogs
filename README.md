@@ -1001,6 +1001,34 @@
 
 ## Prometheus
 
+<details open>
+<summary>prometheus相关</summary>
+
+
+- [安装教程](./prometheus/prometheus-安装教程.md)
+- [配置详解](./prometheus/prometheus-配置详解.md)
+- [相关概念](./prometheus/prometheus-相关概念.md)
+- [数据类型](./prometheus/prometheus-数据类型.md)
+</details>
+
+<details open>
+<summary>pushgateway相关</summary>
+
+
+- [安装教程](./prometheus/pushgateway-安装教程.md)
+- [使用教程](./prometheus/pushgateway-使用教程.md)
+
+</details>
+
+<details open>
+<summary>alertmanager相关</summary>
+
+
+- [安装教程](./prometheus/alertmanager-安装教程.md)
+- [配置详解](./prometheus/alertmanager-配置详解.md)
+- [使用教程](./prometheus/alertmanager-使用教程.md)
+- [通知方式](./prometheus/alertmanager-通知方式.md)
+</details>
 
 ## Grafana
 
