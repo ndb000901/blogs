@@ -1039,6 +1039,14 @@
 - [配置详解](./grafana/grafana-配置详解.md)
 </details>
 
+## Jenkins
+
+<details open>
+<summary>Jenkins相关</summary>
+
+- [安装教程](./jenkins/jenkins-安装教程.md)
+</details>
+
 # 十、环境配置与安装教程
 
 <details open>
