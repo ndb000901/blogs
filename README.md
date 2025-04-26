@@ -1032,6 +1032,13 @@
 
 ## Grafana
 
+<details open>
+<summary>grafana相关</summary>
+
+- [安装教程](./grafana/grafana-安装教程.md)
+- [配置详解](./grafana/grafana-配置详解.md)
+</details>
+
 # 十、环境配置与安装教程
 
 <details open>
