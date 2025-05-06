@@ -1039,6 +1039,14 @@
 - [配置详解](./grafana/grafana-配置详解.md)
 </details>
 
+## Jenkins
+
+<details open>
+<summary>Jenkins相关</summary>
+
+- [安装教程](./jenkins/jenkins-安装教程.md)
+</details>
+
 # 十、环境配置与安装教程
 
 <details open>
@@ -1292,4 +1300,12 @@
 - [git问题汇总](./git/git问题汇总.md)
 
 
+</details>
+
+# 十六、系统设计
+
+<details open>
+<summary>系统设计</summary>
+
+- [基于HLS流媒体防盗系统设计](./systemDesign/hls/基于HLS流媒体防盗系统设计.md)
 </details>
