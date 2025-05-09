@@ -165,6 +165,67 @@
 </details>
 
 <details open>
+    <summary>java集合-List</summary>
+    
+- [ArrayList](./java/collection/list/ArrayList.md)
+- [Vector](./java/collection/list/Vector.md)
+- [LinkedList](./java/collection/list/LinkedList.md)
+- [CopyOnWriteArrayList](./java/collection/list/CopyOnWriteArrayList.md)
+</details>
+
+<details open>
+    <summary>java集合-Map</summary>
+    
+- [HashMap](./java/collection/map/HashMap.md)
+- [Hashtable](./java/collection/map/Hashtable.md)
+- [EnumMap](./java/collection/map/EnumMap.md)
+- [IdentityHashMap](./java/collection/map/IdentityHashMap.md)
+- [LinkedHashMap](./java/collection/map/LinkedHashMap.md)
+- [Properties](./java/collection/map/Properties.md)
+- [TreeMap](./java/collection/map/TreeMap.md)
+- [WeakHashMap](./java/collection/map/WeakHashMap.md)
+- [ConcurrentHashMap](./java/collection/map/ConcurrentHashMap.md)
+- [ConcurrentSkipListMap](./java/collection/map/ConcurrentSkipListMap.md)
+
+</details>
+
+<details open>
+    <summary>java集合-Set</summary>
+    
+- [HashSet](./java/collection/set/HashSet.md)
+- [LinkedHashSet](./java/collection/set/LinkedHashSet.md)
+- [TreeSet](./java/collection/set/TreeSet.md)
+- [ConcurrentSkipListSet](./java/collection/set/ConcurrentSkipListSet.md)
+- [CopyOnWriteArraySet](./java/collection/set/CopyOnWriteArraySet.md)
+
+</details>
+
+<details open>
+    <summary>java集合-Stack</summary>
+    
+- [Stack](./java/collection/stack/Stack.md)
+
+</details>
+
+<details open>
+    <summary>java集合-Queue</summary>
+    
+- [Queue](./java/collection/queue/Queue.md)
+- [PriorityQueue](./java/collection/queue/PriorityQueue.md)
+- [DelayQueue](./java/collection/queue/DelayQueue.md)
+- [ArrayDeque](./java/collection/queue/ArrayDeque.md)
+- [ArrayBlockingQueue](./java/collection/queue/ArrayBlockingQueue.md)
+- [ConcurrentLinkedQueue](./java/collection/queue/ConcurrentLinkedQueue.md)
+- [LinkedBlockingDeque](./java/collection/queue/LinkedBlockingDeque.md)
+- [LinkedBlockingQueue](./java/collection/queue/LinkedBlockingQueue.md)
+- [LinkedTransferQueue](./java/collection/queue/LinkedTransferQueue.md)
+- [PriorityBlockingQueue](./java/collection/queue/PriorityBlockingQueue.md)
+- [SynchronousQueue](./java/collection/queue/SynchronousQueue.md)
+
+
+</details>
+
+<details open>
 <summary>java并发</summary>
 
 - [线程状态](./java/thread/线程状态.md)
