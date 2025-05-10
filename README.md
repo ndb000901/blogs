@@ -1014,9 +1014,23 @@
 ## Java
 
 ### Hibernate
-### JPA(Java Persistence API)
+
 ### MyBatis
-### EclipseLink
+
+<details open>
+<summary>MyBatis相关</summary>
+
+- [核心配置](./mybatis/MyBatis基础-核心配置.md)
+- [日志](./mybatis/MyBatis基础-日志.md)
+- [增删改查](./mybatis/MyBatis基础-增删改查.md)
+- [resultMap](./mybatis/MyBatis基础-resultMap.md)
+- [参数获取](./mybatis/MyBatis基础-参数获取.md)
+- [动态SQL](./mybatis/MyBatis基础-动态SQL.md)
+- [拦截器](./mybatis/MyBatis基础-拦截器.md)
+- [缓存](./mybatis/MyBatis基础-缓存.md)
+- [分页插件](./mybatis/MyBatis基础-分页插件.md)
+</details>
+
 ### Spring Data JPA
 
 # 九、系统运维
