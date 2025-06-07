@@ -1394,6 +1394,7 @@
 ## 常用软件
 
 - [常用工具](./env/常用工具.md)
+- [istoreos 安装](./istoreos/istoreos安装.md)
 
 </details>
 
