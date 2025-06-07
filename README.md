@@ -649,10 +649,27 @@
 
 ## 数据结构
 
+<details open>
+<summary>数据结构基础</summary>
+
+- [数组](./DataStructures/数组.md)
+- [链表](./DataStructures/链表.md)
+- [栈](./DataStructures/栈.md)
+- [队列](./DataStructures/队列.md)
+- [哈希表](./DataStructures/哈希表.md)
+- [二叉树](./DataStructures/二叉树.md)
+- [堆](./DataStructures/堆.md)
+- [图](./DataStructures/图.md)
+- [优先队列](./DataStructures/优先队列.md)
+- [红黑树](./DataStructures/红黑树.md)
+- [B+树](./DataStructures/B+树.md)
+- [AVL树](./DataStructures/AVL树.md)
+</details>
+
 ## 算法
 
 <details open>
-<summary>目录</summary>
+<summary>算法基础</summary>
 
 - [复杂度分析](Algorithms/复杂度分析.md)
 - [位运算](Algorithms/位运算.md)
@@ -1391,6 +1408,12 @@
 - [git基础-配置](./git/git基础-配置.md)
 - [git问题汇总](./git/git问题汇总.md)
 
+## Maven
+
+## Make
+
+## Cmake
+
 ## 常用软件
 
 - [常用工具](./env/常用工具.md)
@@ -1405,3 +1428,6 @@
 
 - [基于HLS流媒体防盗系统设计](./systemDesign/hls/基于HLS流媒体防盗系统设计.md)
 </details>
+
+# 十七、大模型
+
