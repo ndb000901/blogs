@@ -1429,5 +1429,11 @@
 - [基于HLS流媒体防盗系统设计](./systemDesign/hls/基于HLS流媒体防盗系统设计.md)
 </details>
 
-# 十七、大模型
+# 十七、大语言模型
+
+- [MCP](./llm/MCP.md)
+- [RAG](./llm/RAG.md)
+- [ollama-基础使用](./llm/ollama-基础使用.md)
+- [open-webui搭建](./llm/open-webui搭建.md)
+
 
