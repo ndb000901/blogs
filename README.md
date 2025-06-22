@@ -345,6 +345,12 @@
 
 </details>
 
+<details open>
+<summary>JMX基础</summary>
+
+- [JMX-基础使用](./java/jmx/JMX-基础使用.md)
+</details>
+
 
 
 
