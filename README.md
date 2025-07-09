@@ -1423,14 +1423,21 @@
 
 ## Maven
 
+- [maven使用教程](./maven/maven使用教程.md)
+- [maven创建工程](./maven/maven创建工程.md)
+- [maven生命周期](./maven/maven生命周期.md)
+
 ## Make
 
 ## Cmake
+
+- [cmake笔记](./cmake/cmake笔记.md)
 
 ## 常用软件
 
 - [常用工具](./env/常用工具.md)
 - [istoreos 安装](./istoreos/istoreos安装.md)
+- [自建DNS](./dns/自建DNS.md)
 
 </details>
 
