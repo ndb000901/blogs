@@ -1076,6 +1076,7 @@
 - [拦截器](./mybatis/MyBatis基础-拦截器.md)
 - [缓存](./mybatis/MyBatis基础-缓存.md)
 - [分页插件](./mybatis/MyBatis基础-分页插件.md)
+- [代码生成](./mybatis/MyBatis基础-代码生成.md)
 </details>
 
 ### Spring Data JPA
